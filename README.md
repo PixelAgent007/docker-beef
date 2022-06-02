@@ -16,7 +16,7 @@ Build:
     
 Run:
 
-    docker run -d --rm pixelagent007/beef --name=beef
+    docker run -d pixelagent007/beef --name=beef
 
 
 --------------------------------------------------------------------------------
