@@ -9,8 +9,10 @@ https://github.com/beefproject/beef
 Edit config.yaml, then build and run.
 
 Build:
-
-    ./build.sh
+    
+    git clone https://github.com/PixelAgent007/docker-beef
+    cd docker-beef
+    docker build -t pixelagent007/beef .
     
 Run:
 
