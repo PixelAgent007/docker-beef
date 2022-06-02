@@ -14,7 +14,7 @@ Build:
     
 Run:
 
-    docker run -it --rm isaudits/beef
+    docker run -d --rm PixelAgent007/beef --name=beef
 
 
 --------------------------------------------------------------------------------
