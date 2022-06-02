@@ -1,30 +1,20 @@
 # docker-beef
 
 Docker implementation of BeEF Browser Exploitation Framework.
+Originally made by isaudits, modified by PixelAgent007
 
 https://github.com/beefproject/beef
 
-If you are viewing this on docker hub, clone the full repo at https://github.com/isaudits/docker-beef
-to get the launcher scripts and alias files described below.
-
 ## Usage
-Override environment variables for ip addresses, credentials, etc with .env file.
+Edit config.yaml, then build and run.
 
-Pull:
-
-    docker pull isaudits/beef
-
-or Build:
+Build:
 
     ./build.sh
     
 Run:
 
     docker run -it --rm isaudits/beef
-    
-or
-    
-    ./beef.sh
 
 
 --------------------------------------------------------------------------------
